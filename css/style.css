@@ -70,6 +70,20 @@ li {
   display: none;
 }
 
+.container {
+  max-width: 1080px;
+  padding: 80px 40px;
+  margin: 0 auto;
+}
+
+/* Section */
+.section__title {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
 /**
   Header
 */
@@ -126,6 +140,14 @@ li {
 }
 
 /**
+  About
+*/
+.about__text {
+  font-size: 20px;
+  line-height: 1.75;
+}
+
+/**
   Responsive
 */
 
@@ -136,6 +158,16 @@ li {
   .sp-only {
     display: block;
   }
+
+  .container {
+    padding: 40px 30px;
+  }
+
+  /* Section */
+  .section__title {
+    font-size: 24px;
+  }
+
   /**
     SP - Header
   */
@@ -238,6 +270,13 @@ li {
   }
 
   .hero__text {
+    font-size: 18px;
+  }
+
+  /**
+    SP - About
+  */
+  .about__text {
     font-size: 16px;
   }
 }
