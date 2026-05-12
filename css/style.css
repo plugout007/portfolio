@@ -79,7 +79,7 @@ li {
 }
 
 .container {
-  max-width: 1080px;
+  width: min(1080px, 100%);
   padding: 80px 40px;
   margin: 0 auto;
 }
