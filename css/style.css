@@ -62,6 +62,10 @@ a:hover {
   opacity: 0.7;
 }
 
+ul {
+  padding-inline-start: 0;
+}
+
 li {
   list-style: none;
 }
@@ -183,9 +187,58 @@ li {
 }
 
 /**
+  Works
+*/
+.works__list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  justify-items: center;
+}
+
+/* work-card */
+.work-card {
+  width: 100%;
+  max-width: 480px;
+  background-color: var(--color-background-dark);
+  padding: 40px;
+}
+
+.work-card__image {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.work-card__title {
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+.work-card__list {
+  padding-inline-start: 20px;
+  margin-bottom: 30px;
+}
+
+.work-card__item {
+  list-style: disc;
+}
+
+.work-card__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  font-size: 20px;
+  background-color: var(--color-secondary);
+  color: var(--color-white);
+  width: 160px;
+  height: 48px;
+  border-radius: 24px;
+}
+
+/**
   Responsive
 */
-
 @media screen and (max-width: 767px) {
   /**
     SP - Common
@@ -346,5 +399,11 @@ li {
   .skills__text {
     font-size: 16px;
     padding-left: 20px;
+  }
+  /**
+    SP - Works
+  */
+  .works__list {
+    grid-template-columns: 1fr;
   }
 }
