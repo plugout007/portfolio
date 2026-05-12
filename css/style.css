@@ -148,6 +148,41 @@ li {
 }
 
 /**
+  Skills
+*/
+.skills__category {
+  margin-bottom: 50px;
+}
+
+.skills__title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.skills__item {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 24px;
+  padding: 20px 0;
+}
+
+.skills__item.skills__item--simple {
+  display: block;
+  padding-left: 20px;
+}
+
+.skills__sub-title {
+  font-weight: 400;
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.skills__text {
+  font-size: 20px;
+}
+
+/**
   Responsive
 */
 
@@ -166,6 +201,7 @@ li {
   /* Section */
   .section__title {
     font-size: 24px;
+    margin-bottom: 30px;
   }
 
   /**
@@ -278,5 +314,37 @@ li {
   */
   .about__text {
     font-size: 16px;
+  }
+
+  /**
+    SP - Skills
+  */
+  .skills__category {
+    margin-bottom: 30px;
+  }
+
+  .skills__title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 4px;
+  }
+  .skills__item {
+    grid-template-columns: 1fr;
+    gap: 6px;
+    padding: 16px 0;
+  }
+
+  .skills__item.skills__item--simple {
+    padding-left: 0;
+  }
+
+  .skills__sub-title {
+    font-weight: 700;
+    font-size: 18px;
+  }
+
+  .skills__text {
+    font-size: 16px;
+    padding-left: 20px;
   }
 }
