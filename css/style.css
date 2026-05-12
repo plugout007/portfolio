@@ -222,6 +222,8 @@ section {
   max-width: 480px;
   background-color: var(--color-background-dark);
   padding: 40px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
 }
 
 .work-card__image {

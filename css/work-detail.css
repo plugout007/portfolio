@@ -33,6 +33,8 @@
 
 .work-detail-info__image {
   width: 100%;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
 }
 
 .work-detail-info__button {
@@ -58,6 +60,39 @@
   font-weight: 900;
   font-size: 14px;
   color: var(--color-primary);
+}
+
+/**
+  Work Detail Description
+*/
+.work-detail-description .container {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  margin-bottom: 60px;
+}
+
+.work-detail-description__title {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.work-detail-description__body {
+  display: flex;
+  flex-direction: column; 
+  gap: 16px;
+}
+
+.work-detail-description__text {
+  font-size: 20px;
+}
+
+.work-detail-description__list {
+  padding-inline-start: 20px;
+}
+.work-detail-description__item {
+  font-size: 20px;
+  list-style: disc;
 }
 
 /**
