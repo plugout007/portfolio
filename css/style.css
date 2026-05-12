@@ -12,6 +12,10 @@
   margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
@@ -81,6 +85,10 @@ li {
 }
 
 /* Section */
+section {
+  scroll-margin-top: 80px;
+}
+
 .section__title {
   font-size: 36px;
   font-weight: 700;
