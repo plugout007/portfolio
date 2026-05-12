@@ -92,6 +92,8 @@ li {
   Header
 */
 .header {
+  position: sticky;
+  top: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -154,6 +156,10 @@ li {
 /**
   Skills
 */
+.skills .container {
+  padding-bottom: 10px;
+}
+
 .skills__category {
   margin-bottom: 50px;
 }
@@ -189,6 +195,10 @@ li {
 /**
   Works
 */
+.works .container {
+  padding-bottom: 160px;
+}
+
 .works__list {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -198,6 +208,8 @@ li {
 
 /* work-card */
 .work-card {
+  display: flex;
+  flex-direction: column;
   width: 100%;
   max-width: 480px;
   background-color: var(--color-background-dark);
@@ -210,7 +222,8 @@ li {
 }
 
 .work-card__title {
-  font-size: 22px;
+  font-size: 24px;
+  font-weight: 700;
   margin-bottom: 30px;
 }
 
@@ -220,6 +233,7 @@ li {
 }
 
 .work-card__item {
+  font-size: 20px;
   list-style: disc;
 }
 
@@ -227,13 +241,29 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 auto;
+  margin: auto auto 0;
   font-size: 20px;
   background-color: var(--color-secondary);
   color: var(--color-white);
   width: 160px;
   height: 48px;
   border-radius: 24px;
+}
+
+/**
+  Footer
+*/
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-primary);
+  height: 80px;
+}
+
+.footer__text {
+  font-size: 14px;
+  color: var(--color-white);
 }
 
 /**
@@ -405,5 +435,17 @@ li {
   */
   .works__list {
     grid-template-columns: 1fr;
+  }
+
+  .work-card__title {
+    font-size: 20px;
+  }
+
+  .work-card__list{
+    padding-inline-start: 16px;
+  }
+
+  .work-card__item {
+    font-size: 16px;
   }
 }
