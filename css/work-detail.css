@@ -4,7 +4,7 @@
 .work-detail-hero {
   display: flex;
   align-items: center;
-  min-height: 320px;
+  /* min-height: 320px; */
   background-color: var(--color-background-dark);
 }
 
@@ -16,7 +16,8 @@
   Work Detail Info
 */
 .work-detail-info {
-  padding: 80px 0;
+  padding-top: 80px;
+  /* padding: 80px 0; */
 }
 
 .work-detail-info__inner {
@@ -68,13 +69,13 @@
 .work-detail-description .container {
   display: flex;
   flex-direction: column;
-  gap: 60px;
-  margin-bottom: 60px;
+  gap: 48px;
+  padding-bottom: 140px;
 }
 
 .work-detail-description__title {
   font-size: 36px;
-  margin-bottom: 30px;
+  margin-bottom: 24px;
 }
 
 .work-detail-description__body {
