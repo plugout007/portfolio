@@ -157,7 +157,7 @@ section {
   About
 */
 .about__text {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.75;
 }
 
@@ -197,7 +197,7 @@ section {
 }
 
 .skills__text {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 /**
@@ -243,7 +243,7 @@ section {
 }
 
 .work-card__item {
-  font-size: 20px;
+  font-size: 18px;
   list-style: disc;
 }
 
@@ -252,7 +252,7 @@ section {
   justify-content: center;
   align-items: center;
   margin: auto auto 0;
-  font-size: 20px;
+  font-size: 18px;
   background-color: var(--color-secondary);
   color: var(--color-white);
   width: 160px;
