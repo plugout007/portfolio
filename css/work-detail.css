@@ -95,6 +95,7 @@
 .work-detail-description__list {
   padding-inline-start: 20px;
 }
+
 .work-detail-description__item {
   font-size: 20px;
   list-style: disc;
@@ -104,5 +105,28 @@
   Responsive
 */
 @media screen and (max-width: 767px) {
+  .work-detail-description .container {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    padding-top: 40px;
+    padding-bottom: 80px;
+  }
 
+  .work-detail-description__title {
+    font-size: 24px;
+    margin-bottom: 12px;
+  }
+
+  .work-detail-description__body {
+    gap: 8px;
+  }
+
+  .work-detail-description__text {
+    font-size: 16px;
+  }
+
+  .work-detail-description__item {
+    font-size: 16px;
+  }
 }
