@@ -93,10 +93,13 @@
 }
 
 .work-detail-description__list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
   padding-inline-start: 20px;
 }
 
-.work-detail-description__item {
+.work-detail-description__list-item {
   font-size: 18px;
   list-style: disc;
 }

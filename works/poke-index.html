@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ポケモン図鑑アプリ（個人開発） | Ryo Ito Portfolio</title>
+  <meta name="description" content="ポケモン図鑑アプリ（個人開発）の開発実績。">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+  <!-- CSS -->
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/work-detail.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+  <header class="header">
+    <h1 class="header__title"><a href="../">Ryo Ito</a></h1>
+  </header>
+  <main>
+    <section class="work-detail-hero">
+      <div class="container">
+        <h2 class="work-detail-hero__title">ポケモン図鑑アプリ（個人開発）</h2>
+      </div>
+    </section>
+    <section class="work-detail-info">
+      <div class="work-detail-info__inner">
+        <img src="../images/poke-index.jpg" alt="ポケモン図鑑アプリ トップページ" class="work-detail-info__image">
+        <a href="https://poke-index-bay.vercel.app/" target="_blank" rel="noopener noreferrer" class="work-detail-info__button">サイトを見る</a>
+      </div>
+    </section>
+    <section class="work-detail-description">
+      <div class="container">
+        <!-- 制作背景 -->
+        <div class="work-detail-description__item">
+          <h3 class="work-detail-description__title">制作背景</h3>
+          <div class="work-detail-description__body">
+            <p class="work-detail-description__text">ポケモンが好きで、ポケモンAPIの存在を知ったことをきっかけに、これを活用した図鑑アプリを開発しました。</p>
+            <p class="work-detail-description__text">また、ReactにおけるAPI連携や状態管理の理解を深めることも目的としています。</p>
+          </div>
+        </div>
+        <!-- 主な機能 -->
+        <div class="work-detail-description__item">
+          <h3 class="work-detail-description__title">主な機能</h3>
+          <ul class="work-detail-description__list">
+            <li class="work-detail-description__list-item">ポケモン一覧表示（日本語対応）</li>
+            <li class="work-detail-description__list-item">名前検索</li>
+            <li class="work-detail-description__list-item">タイプフィルター</li>
+            <li class="work-detail-description__list-item">詳細表示</li>
+            <li class="work-detail-description__list-item">画像の色違いの切り替え表示</li>
+            <li class="work-detail-description__list-item">ページネーション</li>
+          </ul>
+        </div>
+        <!-- 工夫した点 -->
+        <div class="work-detail-description__item">
+          <h3 class="work-detail-description__title">工夫した点</h3>
+          <ul class="work-detail-description__list">
+            <li class="work-detail-description__list-item">検索・フィルタ・ページネーションを組み合わせた際に発生する状態不整合（ページ番号が保持される問題）を修正し、UXを改善</li>
+            <li class="work-detail-description__list-item">APIデータとローカルデータの役割を整理し、表示用データとして構築することで状態管理を簡素化</li>
+            <li class="work-detail-description__list-item">一覧表示ではローカルJSONを活用し、API依存を減らすことで表示速度と安定性を改善</li>
+            <li class="work-detail-description__list-item">日本語表示に対応するため、APIレスポンスとローカルデータを統合し、ユーザーにとって直感的なUIを実現</li>
+            <li class="work-detail-description__list-item">詳細画面では通常色と色違いの切り替えを実装し、視覚的な楽しさを向上</li>
+            <li class="work-detail-description__list-item">UIでは視認性を考慮し、カードデザインやドロップシャドウを調整</li>
+          </ul>
+        </div>
+        <!-- 成果 -->
+        <div class="work-detail-description__item">
+          <h3 class="work-detail-description__title">成果</h3>
+          <div class="work-detail-description__body">
+            <p class="work-detail-description__text">
+              API連携を通して、データ取得から表示までの流れや、
+              Reactにおける状態管理・データ設計への理解を深めました。
+            </p>
+
+            <p class="work-detail-description__text">
+              また、検索・フィルタ・ページネーションを組み合わせた際の
+              状態不整合への対応を経験し、
+              ユーザー視点でUIを改善する重要性を学びました。
+            </p>
+          </div>
+        </div>
+        <!-- 使用技術 -->
+        <div class="work-detail-description__item">
+          <h3 class="work-detail-description__title">使用技術</h3>
+          <ul class="work-detail-description__list">
+            <li class="work-detail-description__list-item">React / TypeScript</li>
+            <li class="work-detail-description__list-item">Material UI</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <div class="work-detail-footer">
+      <a href="../" class="home-back-button">HOMEに戻る</a>
+    </div>
+  </main>
+  <footer class="footer">
+    <p class="footer__text">© 2026 Ryo Ito</p>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
