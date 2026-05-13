@@ -74,7 +74,7 @@
   flex-direction: column;
   gap: 48px;
   padding-top: 60px;
-  padding-bottom: 140px;
+  padding-bottom: 60px;
 }
 
 .work-detail-description__title {
@@ -99,6 +99,15 @@
 .work-detail-description__item {
   font-size: 18px;
   list-style: disc;
+}
+
+/**
+  Work Detail Footer
+*/
+.work-detail-footer {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 60px;
 }
 
 /**
