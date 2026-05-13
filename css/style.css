@@ -289,10 +289,19 @@ section {
 */
 .footer {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: var(--color-primary);
-  height: 80px;
+  gap: 8px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.footer__github-link {
+  color: var(--color-white);
+  font-size: 24px;
+  line-height: 1;
 }
 
 .footer__text {
