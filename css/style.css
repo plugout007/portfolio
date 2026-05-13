@@ -138,6 +138,8 @@ section {
 
 .header__title {
   font-size: 36px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
 }
 
 .header__hamburger {
