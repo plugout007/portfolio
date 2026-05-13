@@ -105,6 +105,29 @@
   Responsive
 */
 @media screen and (max-width: 767px) {
+  /**
+    SP Work Detail Hero
+  */
+  .work-detail-hero .container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  /**
+    Work Detail Info
+  */
+  .work-detail-info__button {
+    width: 160px;
+    height: 40px;
+
+    border-radius: 20px;
+    font-size: 16px;
+  }
+
+  .work-detail-info__button::after {
+    font-size: 12px;
+  }
+
   .work-detail-description .container {
     display: flex;
     flex-direction: column;
