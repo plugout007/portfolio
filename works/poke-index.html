@@ -52,6 +52,7 @@
             <li class="work-detail-description__list-item">詳細表示</li>
             <li class="work-detail-description__list-item">画像の色違いの切り替え表示</li>
             <li class="work-detail-description__list-item">ページネーション</li>
+            <li class="work-detail-description__list-item">ポケモンの比較機能</li>
           </ul>
         </div>
         <!-- 工夫した点 -->
@@ -63,6 +64,8 @@
             <li class="work-detail-description__list-item">一覧表示ではローカルJSONを活用し、API依存を減らすことで表示速度と安定性を改善</li>
             <li class="work-detail-description__list-item">日本語表示に対応するため、APIレスポンスとローカルデータを統合し、ユーザーにとって直感的なUIを実現</li>
             <li class="work-detail-description__list-item">詳細画面では通常色と色違いの切り替えを実装し、視覚的な楽しさを向上</li>
+            <li class="work-detail-description__list-item">ステータス表示をバーで可視化して、タイプ相性も分かりやすく表示することで、直感的に情報を確認できるように実装</li>
+            <li class="work-detail-description__list-item">メガシンカ・リージョンフォーム・一部フォルム違いの詳細を、画像から遷移して確認できるよう実装</li>
             <li class="work-detail-description__list-item">UIでは視認性を考慮し、カードデザインやドロップシャドウを調整</li>
           </ul>
         </div>
@@ -71,14 +74,15 @@
           <h3 class="work-detail-description__title">成果</h3>
           <div class="work-detail-description__body">
             <p class="work-detail-description__text">
-              API連携を通して、データ取得から表示までの流れや、
-              Reactにおける状態管理・データ設計への理解を深めました。
+              API連携を通して、データ取得から表示までの流れや、Reactにおける状態管理・データ設計への理解を深めました。
             </p>
 
             <p class="work-detail-description__text">
-              また、検索・フィルタ・ページネーションを組み合わせた際の
-              状態不整合への対応を経験し、
-              ユーザー視点でUIを改善する重要性を学びました。
+              また、検索・フィルタ・ページネーションを組み合わせた際の状態不整合への対応を経験し、ユーザー視点でUIを改善する重要性を学びました。
+            </p>
+
+            <p class="work-detail-description__text">
+              さらに、ポケモンAPIのデータ構造を理解し、進化情報やメガシンカ、リージョンフォーム、フォルム違いなどのデータをAPIから取得し、アプリで扱いやすい形に加工する経験を通して、APIデータの構造理解とデータ操作への理解を深めました。
             </p>
           </div>
         </div>
@@ -88,6 +92,7 @@
           <ul class="work-detail-description__list">
             <li class="work-detail-description__list-item">React / TypeScript</li>
             <li class="work-detail-description__list-item">Material UI</li>
+            <li class="work-detail-description__list-item"><a href="https://pokeapi.co/" target="_blank" rel="noopener noreferrer">ポケモンAPI</a></li>
           </ul>
         </div>
       </div>
